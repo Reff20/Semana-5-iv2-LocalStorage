@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+    text-decoration: none;
+}
+
+html, body {
+    min-width: 100%;
+    background-repeat: no-repeat;
+    transition: 5s;
+}
+
+#background {
+    padding: 5%;
+    /* transition: 5s; */
+}
+#att{
+    padding: 0 50%;
+}
+#clear{
+    padding: 0 57%;
+    margin-top: 20%;
+}
+
+#divBtn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10%;
+}
+
+#div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 15% 20%;
+    padding: 5%;
+}
+
+textarea {
+    resize: none;
+    width: 50%;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+label {
+    font-weight: 700;
+    font-size: 110%;
+}
+
+input[type="color"] {
+    display: block;
+    border: none;
+    width: 50%;
+    outline: orange;
+}
+
+#deg {
+    width: 50%;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    size: 15%;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
